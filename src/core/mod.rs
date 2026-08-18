@@ -958,7 +958,7 @@ where
 }
 
 /// Error response specialization for basic OAuth2 dynamic client registration implementation.
-pub type CoreRegistrationErrorResponse = RegisterErrorResponse<CoreRegisterErrorResponseType>;
+pub type CoreRegisterErrorResponse = RegisterErrorResponse<CoreRegisterErrorResponseType>;
 
 /// OpenID Connect Core response mode.
 ///
