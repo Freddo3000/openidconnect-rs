@@ -920,7 +920,7 @@ impl<T: ErrorResponseType> RegisterErrorResponse<T> {
     /// * `error_description` - OPTIONAL. Human-readable ASCII text providing additional
     ///   information, used to assist the client developer in understanding the error that
     ///   occurred.
-    pub fn new(error: T, error_description: Option<String>, error_uri: Option<String>) -> Self {
+    pub fn new(error: T, error_description: Option<String>) -> Self {
         Self {
             error,
             error_description,
